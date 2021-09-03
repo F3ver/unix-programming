@@ -39,7 +39,7 @@ void inum_to_name(ino_t inode_to_find, char *namebuf, int buflen)
             return;
         }
     }
-    fprintf(stderr, "error looking for inum %llu\n", inode_to_find);
+    fprintf(stderr, "error looking for inum %lu\n", inode_to_find);
     exit(1);
 }
 
