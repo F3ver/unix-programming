@@ -1,3 +1,4 @@
+//现实终端驱动程序的当前状态
 #include <stdio.h>
 #include <stdlib.h>
 #include <termios.h>
