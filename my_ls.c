@@ -1,3 +1,4 @@
+//实现shell命令ls,通过读取目标路径的目录文件夹列出目标目录下的文件列表
 #include <stdio.h>
 #include <sys/types.h>
 #include <dirent.h>
