@@ -1,3 +1,5 @@
+//实现shell命令pwd
+//方法：通过目录文件中文件的inode信息，递归扩展到当前文件系统的根目录
 #include <stdio.h>
 #include <sys/types.h>
 #include <stdlib.h>
