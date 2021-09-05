@@ -1,3 +1,4 @@
+//捕捉ctrl-c信号，重置驱动程序
 #include <stdio.h>
 #include <termios.h>
 #include <fcntl.h>
